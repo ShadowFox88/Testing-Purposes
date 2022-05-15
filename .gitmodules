@@ -12,3 +12,6 @@
 [submodule "src/ReplicatedStorage/ThirdParty/PartCache"]
 	path = src/ReplicatedStorage/ThirdParty/PartCache
 	url = https://github.com/cyrus01337/rojo-partcache.git
+[submodule "src/ReplicatedStorage/Require"]
+	path = src/ReplicatedStorage/Require
+	url = https://github.com/cyrus01337/require.git
