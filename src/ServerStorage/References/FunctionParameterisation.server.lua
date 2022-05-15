@@ -1,8 +1,8 @@
 --!strict
 local function closure(x: number, y: number): () -> number
-	return function()
-		return x + y
-	end
+    return function()
+        return x + y
+    end
 end
 
 
@@ -12,14 +12,14 @@ print(value)
 
 
 local function HOF(callback: () -> any): () -> any
-	return function()
-		return callback()
-	end
+    return function()
+        return callback()
+    end
 end
 
 
 local callback: () -> any = HOF(function()
-	return "Hello, World!"
+    return "Hello, World!"
 end)
 local value: any = callback()
 print(value)

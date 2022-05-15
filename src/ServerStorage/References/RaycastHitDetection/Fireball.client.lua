@@ -7,17 +7,17 @@ local player = _S.Players.LocalPlayer
 local playerChar = player.Character or player.CharacterAdded:Wait()
 local playerHead = playerChar:WaitForChild("Head", 60)
 local playerMouse = player:GetMouse()
-	  playerMouse.TargetFilter = workspace:WaitForChild("Projectiles", 60)
+      playerMouse.TargetFilter = workspace:WaitForChild("Projectiles", 60)
 local Fireball = Utils.waitForDescendant(RS, "Fireball")
 
 
 local function onCastMagic(action, state, input)
-	if state ~= Enum.UserInputState.Begin then return end
+    if state ~= Enum.UserInputState.Begin then return end
 
-	if action == "Fireball" then
-		Fireball:FireServer(playerMouse.Hit.p)
-		--task.wait(5)
-	end
+    if action == "Fireball" then
+        Fireball:FireServer(playerMouse.Hit.p)
+        --task.wait(5)
+    end
 end
 
 
