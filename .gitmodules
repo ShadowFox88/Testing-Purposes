@@ -1,10 +1,3 @@
-[submodule "src/ReplicatedStorage/Utils"]
-	path = src/ReplicatedStorage/Utils
-	url = https://github.com/cyrus01337/utils.git
-	branch = luau
-[submodule "src/ReplicatedStorage/Objects"]
-	path = src/ReplicatedStorage/Objects
-	url = https://github.com/cyrus01337/objects.git
 [submodule "src/ReplicatedStorage/ThirdParty/Stringify"]
 	path = src/ReplicatedStorage/ThirdParty/Stringify
 	url = https://github.com/cyrus01337/rojo-stringify.git
@@ -15,3 +8,9 @@
 [submodule "src/ReplicatedStorage/Require"]
 	path = src/ReplicatedStorage/Require
 	url = https://github.com/cyrus01337/require.git
+[submodule "src/ReplicatedStorage/Objects"]
+	path = src/ReplicatedStorage/Objects
+	url = https://github.com/cyrus01337/objects.git
+[submodule "src/ServerStorage/Cmdr"]
+	path = src/ServerStorage/Cmdr
+	url = https://github.com/evaera/Cmdr.git
