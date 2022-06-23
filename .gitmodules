@@ -14,3 +14,7 @@
 [submodule "src/ServerStorage/Cmdr"]
 	path = src/ServerStorage/Cmdr
 	url = https://github.com/evaera/Cmdr.git
+[submodule "src/ReplicatedStorage/Utils"]
+	path = src/ReplicatedStorage/Utils
+	url = https://github.com/cyrus01337/utils.git
+	branch = luau
