@@ -11,9 +11,6 @@
 [submodule "src/ReplicatedStorage/Objects"]
 	path = src/ReplicatedStorage/Objects
 	url = https://github.com/cyrus01337/objects.git
-[submodule "src/ServerStorage/Cmdr"]
-	path = src/ServerStorage/Cmdr
-	url = https://github.com/evaera/Cmdr.git
 [submodule "src/ReplicatedStorage/Utils"]
 	path = src/ReplicatedStorage/Utils
 	url = https://github.com/cyrus01337/utils.git
