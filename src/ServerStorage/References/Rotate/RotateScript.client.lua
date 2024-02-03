@@ -1,7 +1,10 @@
-local rotate = workspace:WaitForChild("Rotate", 60)
+local rotate = workspace:WaitForChild("Rotate")
 
-for i = 1, math.huge do
-    rotate.PrimaryPart.CFrame *= CFrame.Angles(0, math.rad(i / 180), 0)
+local i = 0
 
-    task.wait()
+while true do
+	i = (i + 1) % 360
+	rotate.PrimaryPart.CFrame *= CFrame.Angles(0, math.rad(i / 180), 0)
+
+	task.wait()
 end
